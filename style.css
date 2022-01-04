@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexiable{
     display: flex;
 }
 .half-width{
@@ -17,6 +20,7 @@ section{
 }
 .half-width{
     width: 100%;
+    margin-bottom: 50px;
 }
 .link-button{
     text-decoration: none;
@@ -29,3 +33,32 @@ section{
     background-image: url(image/bg1.png);
     background-repeat: no-repeat;
 }
+.experience-deve{
+    
+    box-shadow: 10px 10px 40px yellowgreen;
+    width: 40%;
+    margin: 0% 5%;
+    margin-bottom: 150px;
+    padding-left: 2%;
+    border-radius: 5px;
+}
+.experience{
+    background-image: url(image/Capture.PNG);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#web-dev{
+    
+   border-left: 7px solid;
+    border-image: linear-gradient(green,yellow);
+    border-image-slice: 1;
+}
+#web-dev1{
+    
+    border-left: 7px solid;
+     border-image: linear-gradient(blue,cyan);
+     border-image-slice: 1;
+ }
+ footer{
+     text-align:center;
+ }
